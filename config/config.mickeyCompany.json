@@ -1,0 +1,51 @@
+{
+  "reserves": [
+    {
+      "title": "ザ・ダイヤモンドホースシュー・プレゼンツ“ミッキー＆カンパニー”",
+      "isShowRestaurant": true,
+      "api": {
+        "_xhr": "",
+        "commodityCD": "XSS05RDHS0024",
+        "contentsCd": "05",
+        "nameCd": "RDHS0",
+        "showId": "1",
+        "useDate": "20191002",
+        "adultNum": "2",
+        "childNum": "0",
+        "childAgeInform": "",
+        "wheelchairCount": "0",
+        "stretcherCount": "",
+        "seatRank": "B"
+      },
+      "link": {
+        "useDate": "20191002",
+        "adultNum": "2",
+        "childNum": "0",
+        "childAgeInform": "",
+        "wheelchairCount": "0",
+        "stretcherCount": "",
+        "nameCd": "RDHS0",
+        "contentsCd": "05",
+        "showId": "1",
+        "mealDivInform": "",
+        "restaurantTypeInform": "",
+        "restaurantNameCd": "RDHS0",
+        "showWay": "",
+        "reservationStatus": "0"
+      },
+      "endPoint": "https://reserve.tokyodisneyresort.jp/sp/showRestaurant/ajaxReservationOfDate/",
+      "pageLink": "https://reserve.tokyodisneyresort.jp/sp/showrestaurant/check/?",
+      "weeklyLink": "https://reserve.tokyodisneyresort.jp/sp/showRestaurant/ajaxReservationOfWeek/"
+    }
+  ],
+  "awsSes": {
+    "awsSESKey": "#CENSORED#",
+    "awsSESSecret": "#CENSORED#"
+  },
+  "mailTo": [
+    "#CENSORED#"
+  ],
+  "mailFrom": "#CENSORED#",
+  "mailDebug": "#CENSORED#"
+}
+
