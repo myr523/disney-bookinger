@@ -16,10 +16,12 @@ type Config struct {
 type Reserve struct {
 	Title string `json:"title"`
 	IsShowRestaurant bool `json:"isShowRestaurant"`
+	IsWeeklyCheck bool `json:"isWeeklyCheck"`
 	API APIConfig `json:"api"`
 	Link LinkConfig `json:"link"`
 	Endpoint string `json:"endPoint"`
 	Pagelink string `json:"pageLink"`
+	WeeklyEndpoint string `json:"weeklyEndpoint"`
 }
 
 type APIConfig struct {
